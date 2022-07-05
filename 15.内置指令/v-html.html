@@ -3,10 +3,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>主题</title>
+    <title>v-html指令</title>
 
-    <script src="js/vue.js"></script>
-    <script src="js/day.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/day.js"></script>
 
 </head>
 <body>
@@ -19,9 +19,6 @@
 
     <script type="text/javascript">
         Vue.config.productionTip = false
-        Vue.filter('first4', function(value) {
-            return value.slice(0, 4)
-        })
 
         const vm = new Vue({
             el: "#root",
