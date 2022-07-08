@@ -51,6 +51,13 @@
                     console.log('n变了~')
                 }
             },
+            //8个钩子，有路由之后还有3个钩子
+            // 创建：前后
+            // 挂载：前后
+            // 更新：前后
+            // 销毁：前后
+
+            //数据监测和数据代理之前
             beforeCreate() {
                 console.log('beforeCreate', "数据监测和数据代理创建之前,无法访问 data\n")
                 //debugger//利用debugger 卡断点
